@@ -1,0 +1,8 @@
+cap 1 aula 4: 
+
+InterConnect NetWorking = InternetWorking = Internet
+
+A internet ela vem da arpanet que surgiu durante a guerra fria
+A internet e um conjunto de redes
+world wide web esta dentro da rede internet
+world wide web e uma subrede
