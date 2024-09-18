@@ -1,5 +1,5 @@
 # Projetos em HTML5 e CSS3 ⚒️
-![GitHub](exercicios/ex010)
+![GitHub]([exercicios/ex010](https://github.com/user-attachments/assets/9804dff5-1251-40ff-a98a-140c7749164b))
 <p>
  Alguns projetos meu em Html5 e Css3
 </p>
