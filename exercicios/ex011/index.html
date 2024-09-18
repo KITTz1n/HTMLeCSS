@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste.css">
     <title>Midias em HTML</title>
 </head>
 <body>
-    <h1>Imagem dinamica</h1>
+    <h1>Midias</h1>
+    <h2>Imagem dinamica</h2>
     <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do navegador.</p>
     <p>
         <picture>
             <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
             <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-            <img src="imagens/foto-g.png" alt="Foto G">
+            <img src="imagens/foto-g.png" alt="Foto G" style="border-radius: 10%;">
         </picture>
     </p>
+    <h2>Audio</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/msc-site.mp3" type="audio/mpeg">
+        <source src="midia/msc-site.ogg" type="audio/ogg">
+        <source src="midia/msc-site.wav" type="audio/wav">
+        <p> Infelizmente seu reprodutor nao consegue reproduzir audio <a href="midia/msc-site.mp3" download="msc-site.mp3">Clique aqui para baixar</a></p>
+    </audio>
+    <h2>Inserindo videos Locais</h2>
+    <p>Esse video esta hospedado no meu proprio servidor. (Consumindo memoria)</p>
+    <video width="500" controls poster="imagens/thumb.png" autoplay style="border-radius: 4%;">
+        <source src="midia/Vid-Mine.m4v" type="video/m4v">
+        <source src="midia/Vid-Mine.mp4" type="video/mp4">
+        <source src="midia/Vid-Mine.webm" type="video/webm">
+        <source src="midia/Vid-Mine.ogv" type="video/ogv">
+    </video>
+    <h2>Inserindo videos do Youtube</h2>
+    <p>Esses videos estao hospedados no YouTube (Nao consume muita memoria) mas eles tambem poderiam ser hospedado no Vimeo</p>
+    <iframe width="500" height="280" src="https://www.youtube.com/embed/9hmfl9l1t9E?si=HDwiT5UHh-6KyrsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 4%;"></iframe>
+    <br>
+    <iframe width="500" height="280" src="https://www.youtube.com/embed/o111y6AHKpY?si=LLYdqtXEJ4EpzkN6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 4%;"></iframe>
 </body>
 </html>
