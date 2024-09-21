@@ -2,7 +2,6 @@
 <p>
  Alguns projetos meu em Html5 e Css3
 </p>
-![GitHub](https://github.com/EOLucas-Martins/Projeto-Receita/blob/main/index.html)
 <p>
  Linguagem:
 </p>
