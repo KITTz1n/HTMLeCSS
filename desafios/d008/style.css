@@ -19,14 +19,17 @@ a
 }
 .Quadrado
 {
-    flex: auto;
-    align-items: center;
+    display: flexbox;
+    align-content: baseline;
+    text-align: center;
     background-color: rgb(43, 43, 43);
     height: auto;
+    width: auto;
     border-radius: 15px;
     margin: 40px;
 }
 .Github
 {
-    text-align: right;
+    margin: 50px;
+    text-align: left;
 }
