@@ -7,7 +7,7 @@
     Caso se interesse para ver o resultado
 </p>
 <p>
-<a href="https://kittz1n.github.io/HTMLeCSS/desafios/d008/">
+<a href="https://kittz1n.github.io/HTMLeCSS/desafios/d008/" target="_blank" rel="external">
     Acesse o site aqui
 </a>
 </p>
