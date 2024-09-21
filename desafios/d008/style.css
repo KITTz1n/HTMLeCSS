@@ -2,10 +2,11 @@
 
 body
 {
-   background-color: rgb(24, 24, 24);
+    background-color: rgb(24, 24, 24);
 }
 h1
 {
+    
     color: white;
 }
 p
@@ -15,4 +16,12 @@ p
 a
 {
     color: rgb(192, 192, 192);
+}
+.Quadrado
+{
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    height: auto;
+    border-radius: 15px;
+    margin: 40px;
 }
