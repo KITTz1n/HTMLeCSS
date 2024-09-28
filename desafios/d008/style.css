@@ -20,7 +20,7 @@ a
 {
     display: flexbox;
     align-content: baseline;
-    text-align: center;
+    text-align: center; 
     background-color: rgb(43, 43, 43);
     height: auto;
     width: auto;
