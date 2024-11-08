@@ -1,0 +1,16 @@
+Uma forma facil de se fazer um popover:
+
+<button popovertarget="menu-popover">Teste</button> / Cria um botao falando que ele vai ser um 
+                                                       menu popover.
+
+<div id="menu-popover"popover> / Cria uma div onde puxa menu popover e fala que a div e um popover
+    <button type="button">hehe</button>
+</div>
+
+script sem comentarios:
+
+<button popovertarget="menu-popover">Teste</button>
+
+<div id="menu-popover"popover>
+    <button type="button">hehe</button>
+</div>
